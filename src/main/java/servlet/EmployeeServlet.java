@@ -11,7 +11,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import model.Employee;
 
-
+@WebServlet("/EmployeeServlet")
 public class EmployeeServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
